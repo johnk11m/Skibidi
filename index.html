@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skibidi Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="heading">Skibidi Clicker</header>
+    <div class="container">
+        <section class="main-content">
+            <div class="main">
+                <div class="left"></div>
+                <div class="center">
+                    <h3>Toilets: <span class="toilet-cost">0</span></h3>
+                    <div class="toilet-container">
+                        <img src="toilet-close.png.jpeg" alt="Default Image" class="toilet-image">
+                        <img src="toilet-open.png.jpeg" alt="Non-Default Image" class="toilet-image-hover" onclick="incrementToilet()" draggable="false">
+                    </div>
+                </div>
+            </div>
+            <p><span class= "toilet-Cost" id="toilet-cost"></span></p>
+        </section>
+        <aside class="upgrade-page">
+            <h3>Upgrades</h3>
+            <div id="upgrades">
+                <!-- Upgrades will be added here dynamically -->
+            </div>
+        </aside>
+    </div>
+    <audio id="fart-sound-1" src="fart-03.mp3"></audio>
+    <audio id="fart-sound-2" src="fart-09.mp3"></audio>
+    <audio id="fart-sound-3" src="fart-04.mp3"></audio>
+    <audio id="fart-sound-4" src="fart-08.mp3"></audio>
+    <audio id="fart-sound-5" src="fart-10.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
